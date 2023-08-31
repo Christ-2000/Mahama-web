@@ -1,0 +1,98 @@
+.root {
+    --bg-color: #fff;
+    --text-color: #0f0c27;
+    --hover: hsl(260, 100%, 51%);
+    --big-font: 3.2rem;
+    --medium-font: 1.8rem;
+    --p-font: 0.941rem;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+*::selection {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+header {
+    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--bg-color);
+    transition: 0.2s;
+    box-shadow: -3px -4px 8px #ffffff73, 2px2px 5px, rgb(20, 14, 14);
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.logo span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: crimson;
+}
+
+/*header{
+    display: flex;
+}
+header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.vavbar a{
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 500;
+}*/
+header {
+    background-color: #9a90eb;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+
+a {
+    align-items: none;
+    gap: 20px;
+    text-decoration: none;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a:hover {
+    color: var(--hover);
+}
+
+#menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+#darkmode {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
